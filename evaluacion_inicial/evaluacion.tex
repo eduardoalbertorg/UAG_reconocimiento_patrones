@@ -1,0 +1,110 @@
+% PLANTILLA APA7
+% Creado por: Isaac Palma Medina
+% Última actualización: 25/07/2021
+% @COPYLEFT
+
+% Fuentes consultadas (todos los derechos reservados):  
+% Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
+% Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+
+%+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
+
+% Preámbulo
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+
+% Portada
+\thispagestyle{empty}
+\title{\Large Evaluación}
+\author{Rodríguez García Eduardo Alberto} % (autores separados, consultar al docente)
+\authorsaffiliations{Universidad Autónoma de Guadalajara}
+\course{Reconocimiento de patrones}
+\professor{Dr. Carlos Alejandro de Luna Ortega}
+\duedate{\today}
+\begin{document}
+    \maketitle
+
+
+    % Índices
+    \pagenumbering{roman}
+    % Contenido
+    \renewcommand\contentsname{\largeÍndice}
+    \tableofcontents
+    \setcounter{tocdepth}{2}
+    \clearpage
+    % Figuras
+    \renewcommand{\listfigurename}{\largeÍndice de fíguras}
+    \listoffigures
+    \clearpage
+    % Tablas
+    \renewcommand{\listtablename}{\largeÍndice de tablas}
+    \listoftables
+    \clearpage
+
+    % Cuerpo
+    \pagenumbering{arabic}
+
+    \section{\large Definir los siguientes conceptos}
+
+        \subsection{Patrón}
+            Sirve de muestra para categorizar alguna cosa como similar, esto puede ser por sus características generales, objetos recurrentes, sucesos, entre otros.
+
+        \subsection{Reconocimiento de patrones}
+            Es el procesamiento de información que da solución a un amplio rango de problemas. Es una disciplina científica que tiene como objetivo el clasificar objetos en un número específico de categorías o clases. Dependiendo de la aplicación, estos objetos pueden ser imágenes, sonidos, o señales que pueden ser clasificadas.
+
+        \subsection{Características}
+            Conjunto de cualidades que poseen la misma clase de elementos.
+
+
+        \subsection{Vectores de Características}
+            Conjunto de propiedades que distinguen los objetos de las clases.
+
+        \subsection{Clasificador}
+            Es una función que mapea el valor de las características en un conjunto de categorías o clases.
+
+        \subsection{Aprendizaje}
+            Parámetros ajustables que usa el clasificador.
+
+    \section{Defina dos ejemplos donde se utilizaría el reconocimiento de patrones}
+        \subsection{Visión de máquina}
+            Tiene que ver con la captura de imágenes con ayuda de cámaras digitales y la interpretación automática de lo que está en la imagen.
+
+        \subsection{Reconocimiento de caracteres}
+            Esta aplicación está relacionada con la transformación de textos impresos o manuscritos a formato digital, lo que permite una mayor flexibilidad en la manipulación de la información.
+
+        \subsection{Reconocimiento de voz}
+            La aplicación en este caso tiene que ver con la construcción de máquinas que puedan reconocer la información hablada.
+
+    \section{Explique la diferencia entre reconocimiento de patrones, data science, y minería de datos}
+        El data science se encarga de estudiar información para poder convertirla en un recurso valioso en la creación de negocios y estrategias.
+
+        El data mining es una técnica que se usa en data science para extraer datos.
+
+        El reconcimiento de patrones es una técnica que se usa en data science para clasificar.
+
+    \section{Defina que es el aprendizaje supervisado y el aprendizaje no supervisado}
+        \subsection{Aprendizaje supervisado}
+            Consiste en clasificar nuevos objetos basándose en la información de una muestra ya clasificada.
+
+        \subsection{Aprendizaje no supervisado}
+            Consiste en dada una muestra no clasificada encontrar la clasificación de la misma.
+
+    \section{Defina dos ejemplos de aprendizaje supervisado y no supervisado}
+        \begin{enumerate}
+            \item Identificación de rostros.
+            \item Búsqueda de petróleo.
+            \item Predicción de magnitudes máximas de terremotos.
+        \end{enumerate}
+    
+
+\end{document}

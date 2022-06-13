@@ -1,0 +1,18 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\large Definir los siguientes conceptos}{1}{section*.4}%
+\contentsline {subsection}{Patrón}{1}{section*.5}%
+\contentsline {subsection}{Reconocimiento de patrones}{1}{section*.6}%
+\contentsline {subsection}{Características}{1}{section*.7}%
+\contentsline {subsection}{Vectores de Características}{1}{section*.8}%
+\contentsline {subsection}{Clasificador}{1}{section*.9}%
+\contentsline {subsection}{Aprendizaje}{1}{section*.10}%
+\contentsline {section}{Defina dos ejemplos donde se utilizaría el reconocimiento de patrones}{1}{section*.11}%
+\contentsline {subsection}{Visión de máquina}{1}{section*.12}%
+\contentsline {subsection}{Reconocimiento de caracteres}{1}{section*.13}%
+\contentsline {subsection}{Reconocimiento de voz}{2}{section*.14}%
+\contentsline {section}{Explique la diferencia entre reconocimiento de patrones, data science, y minería de datos}{2}{section*.15}%
+\contentsline {section}{Defina que es el aprendizaje supervisado y el aprendizaje no supervisado}{2}{section*.16}%
+\contentsline {subsection}{Aprendizaje supervisado}{2}{section*.17}%
+\contentsline {subsection}{Aprendizaje no supervisado}{2}{section*.18}%
+\contentsline {section}{Defina dos ejemplos de aprendizaje supervisado y no supervisado}{2}{section*.19}%
